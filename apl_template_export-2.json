@@ -1,0 +1,78 @@
+{
+    "document": {
+        "type": "APL",
+        "version": "1.5",
+        "theme": "light",
+        "import": [
+            {
+                "name": "alexa-layouts",
+                "version": "1.2.0"
+            }
+        ],
+        "resources": [],
+        "styles": {},
+        "layouts": {},
+        "mainTemplate": {
+            "parameters": [
+                "payload"
+            ],
+            "items": [
+                {
+                    "type": "Container",
+                    "width": "100%",
+                    "height": "100%",
+                    "items": [
+                        {
+                            "type": "AlexaBackground",
+                            "backgroundImageSource": "https://raw.githubusercontent.com/elvinaalmeida/PlayingSharp/main/Untitled%20design-13.png"
+                        },
+                        {
+                            "type": "Text",
+                            "width": "1000dp",
+                            "height": "30dp",
+                            "paddingTop": "50dp",
+                            "paddingBottom": "30dp",
+                            "paddingLeft": "50",
+                            "fontStyle": "normal",
+                            "textAlign": "left",
+                            "textAlignVertical": "top",
+                            "fontSize": "50dp",
+                            "text": "Welcome to Playing Sharp!",
+                            "color": "#5271FF",
+                            "fontFamily": "amazon ember display"
+                        },
+                        {
+                            "type": "Text",
+                            "width": "1000dp",
+                            "height": "30dp",
+                            "paddingBottom": "12dp",
+                            "paddingTop": "50dp",
+                            "paddingLeft": "50",
+                            "fontStyle": "normal",
+                            "textAlign": "left",
+                            "textAlignVertical": "top",
+                            "fontSize": "30dp",
+                            "text": "I am here to help you practice your music skills.",
+                            "color": "#5271FF",
+                            "fontFamily": "amazon ember display"
+                        },
+                        {
+                            "type": "Text",
+                            "fontSize": "20dp",
+                            "text": "Try, Alexa, play Violin Concerto in D major by Brahms",
+                            "fontStyle": "italic",
+                            "textAlignVertical": "bottom",
+                            "color": "#5271FF",
+                            "fontFamily": "amazon ember display",
+                            "textAlign": "right",
+                            "top": "350",
+                            "right": "50"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "datasources": {},
+    "sources": {}
+}
